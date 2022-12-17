@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div className='text-center mt-20 p-10'>
+    <div className='text-center mt-20 p-14'>
       <h1 className='text-7xl text-white'>Luis Espinal</h1>
       <h2 className='text-7xl text-white mt-10'>Web and Swift IOS Development</h2>
 
