@@ -16,6 +16,7 @@ import expressSvg from '../assets/expressSvg.svg'
 import python from '../assets/python.png'
 import nodeSvg from '../assets/nodeSvg.svg'
 import react from '../assets/react.png'
+import profilePic from '../assets/profilePic-modified.png'
 import awsSvg from '../assets/awsSvg.svg'
 import reactSvg from '../assets/reactIconSvg.svg'
 import redux from '../assets/redux.png'
@@ -27,6 +28,7 @@ import typescript from '../assets/typescript.png'
 export default {
     css,
     cssSvg,
+    profilePic,
     awsSvg,
     email,
     mongoDbSvg,

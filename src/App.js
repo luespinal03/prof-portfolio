@@ -1,8 +1,23 @@
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { images } from './constants';
+
+
 
 function App() {
   return (
     <div className='text-center mt-20 p-14'>
       <h1 className='text-7xl text-white'>Luis Espinal</h1>
+
+      <div className='flex justify-center mt-10'>
+        <img src={images.profilePic} alt='' />
+      </div>
+
+      <div className='flex flex-wrap justify-center mt-10'>
+        <a href='https://github.com/luespinal03' className='px-2 hover:scale-125'><AiFillGithub size={35} /></a>
+        <a href='https://www.linkedin.com/in/luis-espinal-440489165/' className='px-2 hover:scale-125'><AiFillLinkedin size={35} /></a>
+      </div>
+
+
       <h2 className='text-7xl text-white mt-10'>Web and Swift IOS Development</h2>
 
       <div className="mt-10">

@@ -2,11 +2,12 @@ import React from 'react'
 import { images } from './constants';
 
 
+
 const Skills = () => {
     return (
         <div className='text-center mt-10 p-14 bg-slate-800/50'>
             <h2 className='text-7xl text-white'>Skills</h2>
-            <h3 className='text-4xl text-white mt-20'>Front End</h3>
+            <h3 className='text-4xl text-white mt-40'>Front End</h3>
             <div className=' flex flex-wrap mt-10'>
                 <div className='ml-[262px] px-5 hover:scale-125'>
                     <img src={images.reactSvg} className='h-28 w-28' alt='React'></img>
@@ -45,7 +46,7 @@ const Skills = () => {
 
             </div>
 
-            <h3 className='text-4xl text-white mt-20'>Back End</h3>
+            <h3 className='text-4xl text-white mt-40'>Back End</h3>
             <div className='flex flex-wrap mt-10'>
 
                 <div className='ml-[480px] px-5 hover:scale-125'>
