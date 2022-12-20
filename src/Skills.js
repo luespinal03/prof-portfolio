@@ -80,15 +80,15 @@ const Skills = () => {
             <h3 className='text-4xl text-white mt-40'>Other</h3>
             <div className='flex flex-wrap mt-10'>
 
-                <div className='ml-[525px] px-5 hover:scale-125'>
+                <div className='ml-[593px] px-5 hover:scale-125'>
                     <img src={images.gitSvg} className='h-24 w-24' alt='Node'></img>
                     <span className='bg-inherit text-white text-lg'>Git</span>
                 </div>
 
-                <div className='px-5 hover:scale-125'>
+                {/* <div className='px-5 hover:scale-125'>
                     <img src={images.swiftSvg} className='h-24 w-24' alt='Express.js'></img>
                     <span className='bg-inherit text-white text-lg'>Swift</span>
-                </div>
+                </div> */}
 
 
             </div>
